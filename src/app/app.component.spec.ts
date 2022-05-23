@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'fusionchart13'`, () => {
+  it(`should have as title 'peer-dependency-angular-twelve'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('fusionchart13');
+    expect(app.title).toEqual('peer-dependency-angular-twelve');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('fusionchart13 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('peer-dependency-angular-twelve app is running!');
   });
 });
